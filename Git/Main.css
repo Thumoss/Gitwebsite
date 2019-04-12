@@ -1,0 +1,106 @@
+body {
+  width: 99.5%;
+  height: 731px;
+  float: left;
+  background-image: url(../Images/achtergrond.jpg)
+  }
+
+header {
+    background: #33b9e3; opacity:0.9;
+    color:#005ce6;
+    padding: 15px 15px 70px 15px;
+
+}
+
+header h1 {
+    margin: 0;
+    display:inline;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0 0 0 15px;
+    display: inline;
+
+}
+
+nav ul li {
+    color: White;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+}
+
+nav ul li a {
+  color: #1a1aff;
+}
+
+.row {
+  clear: both;
+}
+
+.col{
+  background: #33b9e3;
+  border-radius: 15px;
+  color: white;
+  padding: 20px .5%;
+  float: left;
+  margin: .5%;
+  width: 31.1%;
+}
+
+footer {
+  clear: both;
+}
+
+.Studie {
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  float: left;
+  padding-left: 15px;
+
+
+}
+
+.Plaatsen {
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  float: left;
+  padding-left: 15px;
+
+}
+
+.Info {
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  float: left;
+  padding-left: 15px;
+}
+
+.Contacten {
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  float: left;
+  padding-left: 15px;
+}
+
+.Members {
+
+  float: left;
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+}
+
+.texthome {
+text-align: center;
+padding: 150px 0px 0px 0px;
+margin-right: 350px;
+margin-left: 350px;
+
+
+
+
+
+
+}
